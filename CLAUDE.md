@@ -37,6 +37,10 @@ source .venv/bin/activate
 python -m pytest tests/ -v
 ```
 
+## Workflow
+
+- **Commit after every change.** Each distinct change should be committed immediately after it is made.
+
 ## Deployment
 
 - **GitHub remote:** `origin` (git@github.com:billcd/midfloridait-com.git)

@@ -1,19 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mid Florida IT</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-</head>
-<body>
-    <header>
-        <h1>Mid Florida IT</h1>
-        <nav>
-            <a href="/">Home</a>
-        </nav>
-    </header>
+{% extends "base.html" %}
 
+{% block content %}
     <section class="hero">
         <h2>IT Solutions for Central Florida</h2>
         <p>Reliable technology services to keep your business running.</p>
@@ -36,9 +23,4 @@
             </div>
         </div>
     </section>
-
-    <footer>
-        &copy; 2026 Mid Florida IT. All rights reserved.
-    </footer>
-</body>
-</html>
+{% endblock %}
